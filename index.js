@@ -81,5 +81,3 @@ function fiveGames() {
         console.logconsole.log("The computer won " + computerWins+ " games while you won "+ wins + " times.");
     }
 }
-
-fiveGames();
