@@ -1,0 +1,20 @@
+body {
+    background-color:powderblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin-bottom: 50px;
+    color: #050A30;
+}
+
+#selections{
+    margin-top: 40px;
+    font-weight: lighter;
+}
+
+
+#results {
+    margin-top: 40px;
+}
