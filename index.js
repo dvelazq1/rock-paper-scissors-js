@@ -7,11 +7,9 @@ function computerPlay() {
 prompts the user for, and computerSelection which get via the computerPlay function.
 Here we also define who loses or wins the game.
 */
-function gamePlay(playerSelection, computerSelection) {
+function gamePlay(playerSelection) {
     computerSelection = computerPlay();
     console.log("Computer selection was: " + computerSelection);
-    playerSelection = prompt("Please enter rock, paper, or scissors");
-    playerSelection = playerSelection.toLowerCase();
     console.log("Player selection was: " + playerSelection);
     // the code below goes through all the possibile game outcomes
     if (computerSelection === playerSelection) {
@@ -81,3 +79,6 @@ function fiveGames() {
         console.logconsole.log("The computer won " + computerWins+ " games while you won "+ wins + " times.");
     }
 }
+document.getElementById("b1").addEventListener("click", function(){gamePlay("rock");});
+document.getElementById("b2").addEventListener("click", function(){gamePlay("paper");});
+document.getElementById("b3").addEventListener("click", function(){gamePlay("scissors");});
