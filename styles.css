@@ -9,6 +9,10 @@ h1 {
     color: #050A30;
 }
 
+h3 {
+    text-align: center;
+}
+
 #selections{
     margin-top: 40px;
     font-weight: lighter;
@@ -16,5 +20,9 @@ h1 {
 
 
 #results {
-    margin-top: 40px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
 }
